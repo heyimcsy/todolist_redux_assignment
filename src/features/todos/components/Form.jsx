@@ -19,7 +19,7 @@ const Form = () => {
 
   const onChangeHandler = (event) => {
     const { name, value } = event.target
-    setTodo({ ...todo, [name]: value, id: id.slice(2) }) //id값 연결
+    setTodo({ ...todo, [name]: value, id: id }) //id값 연결
   }
 
   const onSubmitHandler = (event) => {
